@@ -1,0 +1,278 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body,
+html {
+  font-size: 10px;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+button {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+}
+
+button,
+input,
+select,
+textarea {
+  background-color: transparent;
+  outline: none;
+  border: 0;
+}
+
+.clear::after,
+.clear::before {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  max-width: 42.5rem;
+  margin: 0 auto;
+}
+#wrapper .inner {
+  width: 32.9rem;
+  margin: 0 auto;
+  position: relative;
+}
+#wrapper main #main-section {
+  background-position: top center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  padding-bottom: 4rem;
+}
+#wrapper main #main-section h1 {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 22rem;
+}
+#wrapper main #main-section h1 img {
+  width: 100%;
+}
+#wrapper main #main-section #video-section {
+  text-align: center;
+}
+#wrapper main #main-section #video-section > img {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+#wrapper main #main-section #video-section .video-area {
+  width: 29.3rem;
+  height: 18.7rem;
+  background-color: #313131;
+  margin: 0 auto;
+}
+#wrapper main #main-section #list-section {
+  padding-top: 8.5rem;
+  padding-bottom: 9rem;
+  text-align: center;
+}
+#wrapper main #main-section #list-section > img {
+  width: 85%;
+  margin-bottom: 2rem;
+}
+#wrapper main #main-section #list-section ul {
+  width: 100%;
+}
+#wrapper main #main-section #list-section ul li {
+  width: 100%;
+}
+#wrapper main #main-section #list-section ul li img {
+  height: 12.7rem;
+  float: left;
+}
+#wrapper main #main-section #list-section ul li:nth-child(2n) img {
+  float: right;
+}
+#wrapper main #main-section #list-section ul li::before, #wrapper main #main-section #list-section ul li::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+#wrapper main #main-section #list-section ul li:not(:last-child) {
+  margin-bottom: 6rem;
+}
+#wrapper main #customer-section {
+  background-color: #df242e;
+  text-align: center;
+  padding: 3rem 0;
+}
+#wrapper main #customer-section img {
+  width: 80%;
+}
+#wrapper footer {
+  padding: 5.5rem 0;
+  background-color: #3a3a3a;
+  text-align: center;
+}
+#wrapper footer .inner h1 {
+  margin-bottom: 1rem;
+}
+#wrapper footer .inner h1 img {
+  width: 4.5rem;
+}
+#wrapper footer .inner p {
+  color: #a1a1a1;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+#wrapper footer .inner p:not(:last-child) {
+  margin-bottom: 2rem;
+}
+#wrapper footer .inner p b {
+  color: #ff8643;
+}
+
+/*# sourceMappingURL=mobile.css.map */

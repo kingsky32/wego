@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  max-width: 42.5rem;
+  margin: 0 auto;
+  .inner {
+    width: 32.9rem;
+    margin: 0 auto;
+    position: relative;
+  }
+  main {
+    #main-section {
+      background-position: top center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      padding-top: 10rem;
+      padding-bottom: 4rem;
+      h1 {
+        text-align: center;
+        width: 100%;
+        margin-bottom: 22rem;
+        img {
+          width: 100%;
+        }
+      }
+      #video-section {
+        text-align: center;
+        > img {
+          width: 80%;
+          margin-bottom: 2rem;
+        }
+        .video-area {
+          width: 29.3rem;
+          height: 18.7rem;
+          background-color: #313131;
+          margin: 0 auto;
+        }
+      }
+      #list-section {
+        padding-top: 8.5rem;
+        padding-bottom: 9rem;
+        text-align: center;
+        > img {
+          width: 85%;
+          margin-bottom: 2rem;
+        }
+        ul {
+          width: 100%;
+          li {
+            width: 100%;
+            img {
+              height: 12.7rem;
+              float: left;
+            }
+            &:nth-child(2n) {
+              img {
+                float: right;
+              }
+            }
+            &::before,
+            &::after {
+              content: "";
+              display: block;
+              clear: both;
+            }
+            &:not(:last-child) {
+              margin-bottom: 6rem;
+            }
+          }
+        }
+      }
+    }
+    #customer-section {
+      background-color: #df242e;
+      text-align: center;
+      padding: 3rem 0;
+      img {
+        width: 80%;
+      }
+    }
+  }
+  footer {
+    padding: 5.5rem 0;
+    background-color: #3a3a3a;
+    text-align: center;
+    .inner {
+      h1 {
+        margin-bottom: 1rem;
+        img {
+          width: 4.5rem;
+        }
+      }
+      p {
+        color: #a1a1a1;
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+        &:not(:last-child) {
+          margin-bottom: 2rem;
+        }
+        b {
+          color: #ff8643;
+        }
+      }
+    }
+  }
+}
